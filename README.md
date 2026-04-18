@@ -117,3 +117,35 @@ I started by building a basic chatbot using pattern matching and gradually impro
 - Avoiding misleading or incorrect responses
 - Keeping chatbot responses limited to known domain
 - Ensuring respectful and safe interaction
+
+---
+## How to Run
+
+1. Clone this repository:
+```
+git clone https://github.com/srikrishna725/university-chatbot.git
+```
+
+2. Navigate to the project folder:
+```
+cd university-chatbot
+```
+
+3. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+4. Download the spaCy model:
+```
+python -m spacy download en_core_web_md
+```
+
+5. Run the chatbot:
+```
+python chatbot.py
+```
+
+6. Start interacting with the chatbot in the terminal.
+
+---
