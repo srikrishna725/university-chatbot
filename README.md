@@ -149,3 +149,26 @@ python chatbot.py
 6. Start interacting with the chatbot in the terminal.
 
 ---
+
+---
+
+## 📸 Demo / Screenshots
+
+Below are some example interactions with the chatbot:
+
+### 🔹 Greeting
+![Greeting](demo1.png)
+
+### 🔹 Asking about courses
+![Courses](demo2.png)
+
+### 🔹 Asking about fees
+![Fees](demo3.png)
+
+### 🔹 Unknown question handling
+![Fallback](demo4.png)
+
+### 🔹 Exit conversation
+![Exit](demo5.png)
+
+---
