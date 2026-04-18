@@ -1,0 +1,1031 @@
+{
+    "intents":[
+  {
+    "intent": "greeting",
+  "patterns": [
+    "Hi",
+    "Hello",
+    "Hey",
+    "Hey there",
+    "Good morning",
+    "Good afternoon",
+    "Good evening",
+    "Hi chatbot",
+    "Hello bot",
+    "Is anyone available?",
+    "Can you help me?",
+    "Anyone there?",
+    "Hi, I need some help",
+    "Hey, I have a question",
+    "Hello, are you online?",
+    "Hey buddy",
+    "Hi there",
+    "What's going on?",
+    "How's it going?",
+    "Are you there?"
+  ],
+  "responses": [
+    "Hi! How can I assist you today?",
+    "Hello! What can I help you with?",
+    "Hey there! Feel free to ask me anything.",
+    "Hi! I'm here and ready to help.",
+    "Hello! How can I support you today?",
+    "Hey! What do you need help with?",
+    "Hi there! Let me know how I can assist.",
+    "Hello! Ask me anything, I'm here to help.",
+    "Hey! I'm available—what's up?",
+    "Hi! How can I make things easier for you today?"
+  ]
+
+ },
+  {
+    "intent": "goodbye",
+  "patterns": [
+    "Bye",
+    "Goodbye",
+    "See you",
+    "See you later",
+    "Catch you later",
+    "Talk to you later",
+    "I have to go",
+    "Gotta go",
+    "I’m leaving now",
+    "Thanks, bye",
+    "Bye for now",
+    "See ya",
+    "Take care",
+    "I’ll get back to you later",
+    "Ending the chat now",
+    "That’s all for now",
+    "Have a good day",
+    "Have a nice day",
+    "See you soon",
+    "Bye, thanks for the help"
+  ],
+  "responses": [
+    "Goodbye! Have a great day ahead",
+    "See you later! Feel free to come back anytime.",
+    "Bye! I'm here whenever you need help.",
+    "Take care! Let me know if you need anything else later.",
+    "It was nice chatting with you. Goodbye!",
+    "Catch you later! Have a good one.",
+    "Bye for now! Don’t hesitate to return if you have more questions.",
+    "Thanks for chatting! Have a wonderful day.",
+    "See you soon! Stay safe and take care.",
+    "Goodbye! Looking forward to helping you again."
+  ]
+    
+ },
+  {
+    
+  "intent": "creator",
+  "patterns": [
+    "Who created you?",
+    "Who made you?",
+    "Who developed you?",
+    "Who built you?",
+    "Who designed you?",
+    "Who is your creator?",
+    "Who are your developers?",
+    "Tell me about your creators",
+    "Who is behind this chatbot?",
+    "Who built this system?",
+    "Who made this bot?",
+    "Who programmed you?",
+    "Who is your developer?",
+    "Who created this chatbot?",
+    "Who developed this bot?",
+    "Who is responsible for you?",
+    "Where were you developed?",
+    "Who is your team?"
+  ],
+  "responses": [
+    "I was developed by a team of university students as part of a project.",
+    "I'm created by a group of developers working on a chatbot project.",
+    "This chatbot was built by students to assist users with their queries.",
+    "I'm the result of a project developed by college students.",
+    "A team of student developers worked together to create me.",
+    "I was designed and developed as part of an academic project.",
+    "I'm built by students to help answer questions and provide assistance.",
+    "This bot was created by a group of aspiring developers.",
+    "I was developed as part of a university-level chatbot project.",
+    "A team of learners and developers created me to assist users like you."
+  ]
+ },
+  {
+   "intent": "name",
+  "patterns": [
+    "What is your name?",
+    "What's your name?",
+    "Your name",
+    "Do you have a name?",
+    "What should I call you?",
+    "Who are you?",
+    "What are you?",
+    "Who am I talking to?",
+    "Who is this?",
+    "What am I chatting with?",
+    "Tell me your name",
+    "May I know your name?",
+    "Can you tell me your name?",
+    "Do you have a nickname?",
+    "What do people call you?",
+    "Introduce yourself",
+    "What should I call this bot?",
+    "Are you a bot or a human?"
+  ],
+  "responses": [
+    "You can call me Mind Reader .I'm here to help you.",
+    "I'm Mind Reader, your virtual assistant.",
+    "My name is Mind Reader. How can I assist you today?",
+    "I go by Mind Reader—your friendly chatbot!",
+    "I'm Mind Reader, a chatbot designed to help answer your questions.",
+    "You can call me Mind Reader. What can I do for you?",
+    "I'm Mind Reader, here to assist you anytime.",
+    "Mind Reader at your service! How can I help?",
+    "I'm your assistant, Mind Reader. Ask me anything!",
+    "I’m Mind Reader, your helpful chatbot companion."
+  ]
+    
+ },
+  {
+     "intent": "hours",
+  "patterns": [
+    "What are the college timings?",
+    "What is the college timing?",
+    "College hours",
+    "Working hours of the college",
+    "When is the college open?",
+    "What time does the college open?",
+    "What time does the college close?",
+    "When should I come to college?",
+    "What are your working days?",
+    "Is the college open today?",
+    "Is the college open on Saturday?",
+    "Tell me the college timings",
+    "Can you tell me the working hours?",
+    "What are your hours of operation?",
+    "When does the college start and end?",
+    "College schedule",
+    "Opening and closing time of college",
+    "What time should I attend college?",
+    "Are you open on weekends?",
+    "When are classes usually held?"
+  ],
+  "responses": [
+    "The college is typically open from 8:00 AM to 5:00 PM, Monday to Saturday.",
+    "Our working hours are 8 AM to 5 PM from Monday to Saturday.",
+    "The college operates between 8:00 AM and 5:00 PM on weekdays and Saturdays.",
+    "You can visit the college anytime between 8 AM and 5 PM, Monday through Saturday.",
+    "College hours are generally from 8 in the morning to 5 in the evening, Monday to Saturday."
+  ]
+ },
+  {
+    "intent": "contact_info",
+  "patterns": [
+    "How can I contact the college?",
+    "Contact information",
+    "Contact details",
+    "College contact number",
+    "What is the phone number?",
+    "Can I get your phone number?",
+    "How do I call the college?",
+    "College telephone number",
+    "Phone number of the college",
+    "How can I reach you?",
+    "Is there a contact number?",
+    "How to get in touch with the college?",
+    "I want to contact the college",
+    "How can I speak to someone?",
+    "Do you have a phone number?",
+    "What is your contact number?",
+    "Helpline number",
+    "Support contact details"
+  ],
+  "responses": [
+    "You can contact the college at +44 20 7946 0958.",
+    "For any inquiries, please call us at +44 20 7946 0958.",
+    "You can reach the college by phone at +44 20 7946 0958.",
+    "Feel free to get in touch with us at +44 20 7946 0958.",
+    "Our contact number is +44 20 7946 0958. We’re happy to assist you.",
+    "Please contact us at +44 20 7946 0958 for further assistance."
+  ]
+ },
+  {
+    "intent": "course_info",
+  "patterns": [
+    "What courses are offered?",
+    "List of courses",
+    "Courses offered in the college",
+    "What programs do you provide?",
+    "What are the available courses?",
+    "Can you list the courses?",
+    "What branches are available?",
+    "Which courses can I study here?",
+    "Tell me about the courses offered",
+    "What are the degree programs available?",
+    "What can I study at this college?",
+    "Do you offer engineering courses?",
+    "Available branches in the college",
+    "What courses do you have?",
+    "Give me the list of programs",
+    "What are the academic programs offered?",
+    "Which engineering branches are available?"
+  ],
+  "responses": [
+    "Our college offers a range of engineering programs including Information Technology, Computer Engineering, Mechanical Engineering, Civil Engineering, Chemical Engineering, and Electronics & Telecommunication Engineering.",
+    "We provide several courses such as Computer Engineering, IT, Mechanical, Civil, Chemical, and EXTC Engineering.",
+    "The available courses include Information Technology, Computer Engineering, Mechanical Engineering, Civil Engineering, Chemical Engineering, and Electronics & Telecommunication.",
+    "You can choose from courses like IT, Computer Engineering, Mechanical, Civil, Chemical, and EXTC Engineering."
+  ]
+ },
+  {
+     "intent": "fees",
+  "patterns": [
+    "What is the fee structure?",
+    "Tell me about the fees",
+    "College fees",
+    "Tuition fees",
+    "What are the fees per semester?",
+    "What is the yearly fee?",
+    "How much is the course fee?",
+    "Fees for first year",
+    "What is the fee for each year?",
+    "Can you explain the fee structure?",
+    "How much do I need to pay?",
+    "What are the tuition charges?",
+    "Give me fee details",
+    "What is the total course fee?",
+    "What are the academic fees?",
+    "How much are the college fees?",
+    "Fee details please"
+  ],
+  "responses": [
+    "The fee structure varies depending on the course. Please contact the administration at +44 20 7946 0958 for detailed information.",
+    "Tuition fees differ by program and year. Kindly reach out to the college office at +44 20 7946 0958 for exact details.",
+    "For accurate and updated fee details, please contact the college at +44 20 7946 0958.",
+    "Fee details may vary based on the course. We recommend contacting the college office at +44 20 7946 0958.",
+    "You can get complete fee information by calling the college at +44 20 7946 0958."
+  ]
+ },
+  {
+   "intent": "location",
+  "patterns": [
+    "Where is the college located?",
+    "What is the college address?",
+    "College location",
+    "How can I reach the college?",
+    "Where is the college?",
+    "Can you tell me the address of the college?",
+    "How do I get to the college?",
+    "Where can I find the college?",
+    "Give me the college address",
+    "Directions to the college",
+    "How to reach the campus?",
+    "What is your location?",
+    "Where are you located?",
+    "Can you share the location?",
+    "Address of the college"
+  ],
+  "responses": [
+    "The college is located at Oxford University, Oxford, United Kingdom. You can view it on Google Maps here: https://maps.google.com/?q=Oxford+University",
+    "Our campus is located in Oxford, UK. You can find directions here: https://maps.google.com/?q=Oxford+University",
+    "The college address is Oxford University, Oxford, UK. Use this link for directions: https://maps.google.com/?q=Oxford+University",
+    "You can locate the college at Oxford University, Oxford. Check directions here: https://maps.google.com/?q=Oxford+University",
+    "We are based in Oxford, United Kingdom. Here's the map location: https://maps.google.com/?q=Oxford+University"
+  ]
+ },
+  {
+    "intent": "hostel_info",
+  "patterns": [
+    "Do you provide hostel facilities?",
+    "Is hostel available?",
+    "Do you have accommodation?",
+    "Is there any student housing?",
+    "Tell me about hostel facilities",
+    "Hostel availability",
+    "Do you offer on-campus accommodation?",
+    "Is accommodation provided by the college?",
+    "Where can students stay?",
+    "Do you have hostels for students?",
+    "Can I apply for hostel?",
+    "How do I get hostel accommodation?",
+    "Student accommodation details",
+    "Do you provide housing for students?",
+    "Accommodation options in the college",
+    "Is hostel compulsory?",
+    "How can I apply for hostel?"
+  ],
+  "responses": [
+    "Yes, the college provides both on-campus and off-campus accommodation options for students.",
+    "We offer student housing facilities. You can apply through the student accommodation portal.",
+    "Hostel facilities are available for students. Please apply via the official housing system.",
+    "The college provides accommodation options including hostels. You can register through the student portal.",
+    "Yes, accommodation is available. Please contact the administration or apply through the housing portal for more details."
+  ]
+ },
+  {
+    "intent": "events",
+  "patterns": [
+    "What events are आयोजित in the college?",
+    "What events are conducted in the college?",
+    "Tell me about college events",
+    "Are there any events in the college?",
+    "What kind of events do you have?",
+    "List of events in the college",
+    "Do you organize events?",
+    "What activities are held in the college?",
+    "College events information",
+    "What fests are conducted?",
+    "Are there any cultural events?",
+    "Do you have technical fests?",
+    "What programs are आयोजित?",
+    "Tell me about festivals in the college",
+    "What extracurricular activities are available?",
+    "Do students participate in events?",
+    "Any upcoming events?",
+    "What happens in college events?",
+    "Do you conduct workshops or seminars?"
+  ],
+  "responses": [
+    "Our college organizes a variety of events including cultural festivals, technical fests, workshops, and seminars throughout the year.",
+    "We conduct multiple events such as tech fests, cultural programs, guest lectures, and workshops.",
+    "Students can participate in various activities like cultural events, technical competitions, and seminars.",
+    "The college regularly hosts events including festivals, workshops, and academic seminars.",
+    "We offer a range of extracurricular activities including technical fests, cultural events, and training workshops."
+  ]
+ },
+  {
+    "intent": "admission_documents",
+  "patterns": [
+    "What documents are required for admission?",
+    "Documents needed for admission",
+    "Which documents should I bring for admission?",
+    "What are the admission requirements?",
+    "List of documents required for admission",
+    "What documents do I need to apply?",
+    "Documents required at the time of admission",
+    "What paperwork is needed for admission?",
+    "Tell me the documents needed for admission",
+    "Do I need any documents for admission?",
+    "What should I submit during admission?",
+    "Admission document checklist",
+    "What certificates are required for admission?",
+    "Which documents are needed to enroll?",
+    "Documents required for college admission"
+  ],
+  "responses": [
+    "For admission, you typically need academic transcripts, a valid ID proof, passport-sized photographs, and a completed application form.",
+    "The required documents usually include your previous academic records, identification proof, photographs, and the application form.",
+    "You will need documents such as transcripts, ID proof, passport-size photos, and admission forms during the application process.",
+    "Common admission documents include academic certificates, ID proof, photographs, and a completed application form.",
+    "Please ensure you have your academic records, identification proof, and application documents ready for admission."
+  ]
+ },
+  {
+    "intent": "building_floors",
+  "patterns": [
+    "How many floors does the college have?",
+    "Number of floors in the college building",
+    "How many floors are there?",
+    "College building floors",
+    "Total floors in the college",
+    "How tall is the college building?",
+    "How many levels does the building have?",
+    "What is the number of floors in the campus building?",
+    "Is the college building multi-storey?",
+    "Tell me about the building structure"
+  ],
+  "responses": [
+    "The college building has a total of 2 floors.",
+    "Our college consists of a 2-storey building.",
+    "The campus building includes 2 floors.",
+    "The college infrastructure includes a building with 2 levels.",
+    "There are 2 floors in the main college building."
+  ]
+ },
+  {
+    "intent": "syllabus",
+  "patterns": [
+    "What is the syllabus for Information Technology?",
+    "IT syllabus",
+    "Course syllabus",
+    "Can you share the syllabus?",
+    "What subjects are included in the course?",
+    "What is covered in the syllabus?",
+    "Syllabus for the course",
+    "Where can I find the syllabus?",
+    "What topics are included in IT?",
+    "Tell me about the course syllabus",
+    "What does the curriculum include?",
+    "Syllabus details for engineering courses",
+    "What will I study in this course?"
+  ],
+  "responses": [
+    "The syllabus includes both theoretical and practical subjects relevant to your course. You can access the detailed syllabus through the university portal.",
+    "Course syllabi are available on the university portal and include all subjects and topics covered during the program.",
+    "The syllabus outlines the subjects and topics you will study. Please refer to the university portal for detailed information.",
+    "You can find the complete syllabus for your course on the official university website or student portal.",
+    "The curriculum includes core subjects, electives, and practical sessions. Detailed syllabus is available online."
+  ]
+ },
+ {
+ "intent": "timetable",
+  "patterns": [
+    "What is the timetable?",
+    "Class schedule",
+    "Lecture schedule",
+    "When are my classes?",
+    "Daily timetable",
+    "Show me my schedule",
+    "When do classes start?",
+    "What is today's timetable?"
+  ],
+  "responses": [
+    "Your timetable is available on the student portal. Please check there for the latest schedule.",
+    "Class schedules are shared through the university portal. Kindly log in to view your timetable.",
+    "You can find your lecture schedule on the official student portal."
+  ]
+
+ },
+  {
+   "intent": "library_info",
+  "patterns": [
+    "Is there a library in the college?",
+    "Do you have a library?",
+    "Library facilities",
+    "Tell me about the library",
+    "College library information",
+    "What facilities does the library have?",
+    "Can I access books in the college?",
+    "Is a library available for students?",
+    "Library services",
+    "Do students have access to books?",
+    "Library details",
+    "How many libraries are there?",
+    "What resources are available in the library?"
+  ],
+  "responses": [
+    "The college has a well-equipped and spacious library with a wide collection of books and study materials.",
+    "Yes, we have a large library that provides access to academic books, journals, and digital resources.",
+    "Our library offers a quiet study environment along with a variety of learning resources for students.",
+    "The college library is well-stocked with books, reference materials, and digital resources to support students."
+  ]
+ },
+  {
+    "intent": "infrastructure",
+  "patterns": [
+    "How is the college infrastructure?",
+    "Tell me about the infrastructure",
+    "College facilities",
+    "What facilities are available in the college?",
+    "How is the campus infrastructure?",
+    "Describe the college infrastructure",
+    "What does the campus offer?",
+    "Are the facilities good?",
+    "Tell me about campus facilities",
+    "What infrastructure does the college have?",
+    "How is the environment of the college?",
+    "What kind of labs and facilities are available?",
+    "Do you have good infrastructure?",
+    "Is the campus well equipped?",
+    "What are the campus facilities?"
+  ],
+  "responses": [
+    "Our university offers excellent infrastructure with modern classrooms, well-equipped laboratories, and high-speed internet facilities.",
+    "The campus provides a clean and well-maintained environment with advanced IT labs and learning resources.",
+    "We have state-of-the-art infrastructure including smart classrooms, labs, library, and recreational facilities.",
+    "The college infrastructure is designed to support both academic and extracurricular activities with modern amenities.",
+    "Our campus includes well-equipped labs, a spacious library, and high-speed internet to support student learning."
+  ]
+ },
+  {
+    "intent": "canteen_info",
+  "patterns": [
+    "Is there a canteen in the college?",
+    "Do you have a cafeteria?",
+    "Food facilities in the college",
+    "Tell me about the canteen",
+    "Does the college provide food services?",
+    "Are food facilities available?",
+    "What food options are available on campus?",
+    "Is there a place to eat in the college?",
+    "Cafeteria details",
+    "Do students have access to a canteen?",
+    "What kind of food is available?",
+    "College food facilities"
+  ],
+  "responses": [
+    "The college has a canteen that offers a variety of food options for students.",
+    "Yes, we have a cafeteria on campus serving different types of meals and snacks.",
+    "Food facilities are available in the college canteen with a range of options for students.",
+    "Our campus includes a cafeteria that provides hygienic and affordable food.",
+    "Students can access the college canteen for meals, snacks, and beverages throughout the day."
+  ]
+ },
+  {
+    "intent": "canteen_menu",
+  "patterns": [
+    "What is on the menu?",
+    "Canteen menu",
+    "What food is available in the canteen?",
+    "What can I eat in the college canteen?",
+    "Food options in the cafeteria",
+    "What meals are served in the canteen?",
+    "Do you have a food menu?",
+    "What kind of food is available?",
+    "Menu of the college cafeteria",
+    "What dishes are offered in the canteen?",
+    "Available food items in college",
+    "What snacks are available?"
+  ],
+  "responses": [
+    "The canteen offers a variety of food items including snacks and full meals such as Franky, Aloo Puri, Kachori, Khavsa, and thali options.",
+    "Our cafeteria serves a range of dishes including traditional meals, snacks, and beverages to suit different tastes.",
+    "You can find a variety of food options like snacks, meals, and beverages in the college canteen.",
+    "The menu includes items such as Franky, Aloo Puri, Kachori, Khavsa, thali, and more.",
+    "The canteen provides a diverse menu with both light snacks and full meals for students."
+  ]
+ },
+  {
+    "intent": "placement_info",
+  "patterns": [
+    "What are the placement opportunities?",
+    "Tell me about placements",
+    "How are the college placements?",
+    "Which companies visit the college?",
+    "Top recruiters of the college",
+    "What is the average salary package?",
+    "Placement details",
+    "Do companies visit the campus?",
+    "What is the highest package offered?",
+    "Recruitment information",
+    "Campus placement details",
+    "What kind of jobs do students get?",
+    "Placement statistics",
+    "How is the placement record?",
+    "Who are the recruiters?"
+  ],
+  "responses": [
+    "The college has a strong placement record with several reputed companies visiting the campus every year.",
+    "Top companies regularly visit the campus for recruitment, offering competitive salary packages.",
+    "Placement opportunities are available with leading companies, and students receive good support from the placement cell.",
+    "The average package and recruiters vary each year. For detailed information, please visit: https://www.university.ac.uk/careers",
+    "Our placement cell assists students in securing jobs with well-known organizations across various industries."
+  ]
+ },
+  {
+    "intent": "hod_info",
+  "patterns": [
+    "Who is the HOD?",
+    "Who is the Head of Department?",
+    "Who is the HOD of IT?",
+    "Who is the HOD of Computer Science?",
+    "Who is the HOD of EXTC?",
+    "Name of IT HOD",
+    "Name of Computer Science HOD",
+    "Name of EXTC HOD",
+    "Who is the department head?",
+    "Who leads the department?",
+    "HOD details",
+    "Tell me about the HOD",
+    "Who is in charge of the department?",
+    "Can you tell me the HOD name?"
+  ],
+  "responses": [
+    "The Head of Department (HOD) varies by department. Please specify which department you are referring to.",
+    "Each department has its own HOD. Could you please mention the department name?",
+    "The HOD depends on the department. Let me know which department you are asking about.",
+    "Different departments have different HODs. Please specify the department for accurate information."
+  ]
+ },
+  {
+    "intent": "principal_info",
+  "patterns": [
+    "Who is the principal?",
+    "What is the name of the principal?",
+    "Principal name",
+    "Who is the college principal?",
+    "Tell me about the principal",
+    "Who is the head of the college?",
+    "Name of the principal",
+    "Can you tell me the principal's name?",
+    "Who is in charge of the college?",
+    "College principal details"
+  ],
+  "responses": [
+    "The principal of the college is Dr. David.",
+    "Dr. David serves as the principal of the college.",
+    "The college is headed by Dr. David as the principal.",
+    "Dr. David is the current principal of the institution.",
+    "The principal of the college is Dr. David, who oversees academic and administrative activities."
+  ]
+ },
+ {
+"intent": "principal_location",
+  "patterns": [
+    "Where is the principal's office?",
+    "Principal office location",
+    "Where can I find the principal?",
+    "How do I meet the principal?",
+    "Where is the principal located?"
+  ],
+  "responses": [
+    "The principal's office is located within the main administrative building.",
+    "You can find the principal in the administration block during working hours.",
+    "The principal’s office is situated on campus in the main office area.",
+    "Please visit the administrative office to meet the principal."
+  ]
+ },
+  {
+   "intent": "exam_schedule",
+  "patterns": [
+    "When are the exams?",
+    "Exam dates",
+    "Exam schedule",
+    "When is the semester exam?",
+    "Exam timetable",
+    "When do exams start?",
+    "When are the final exams?",
+    "Can you tell me the exam schedule?",
+    "What is the exam timetable?",
+    "When is my next exam?",
+    "Semester exam timetable",
+    "Exam calendar",
+    "Dates of exams",
+    "When will exams be conducted?"
+  ],
+  "responses": [
+    "The exam schedule is published in the academic calendar available on the university portal.",
+    "You can find the exam dates and timetable on the official university portal.",
+    "Exam schedules are shared with students through the academic calendar at the beginning of the semester.",
+    "Please refer to the university portal for the latest exam timetable and dates.",
+    "The exam timetable is available online via the student portal."
+  ]
+ },
+  {
+    "intent": "admission_process",
+  "patterns": [
+    "What is the admission process?",
+    "How can I apply for admission?",
+    "How to take admission in the college?",
+    "Steps for admission",
+    "What is the procedure for admission?",
+    "How do I get admission?",
+    "Can you explain the admission process?",
+    "How to apply to this college?",
+    "What are the steps to enroll?",
+    "Admission procedure details",
+    "How can I join the college?",
+    "Process of applying for admission",
+    "What should I do to get admission?",
+    "How does admission work?"
+  ],
+  "responses": [
+    "You can apply for admission online through the university portal by filling out the application form and submitting the required documents.",
+    "The admission process involves completing an online application form and uploading the necessary documents.",
+    "To apply, visit the official admission portal, fill out the form, and submit the required documents.",
+    "Admissions are conducted online. Please complete the application form and provide the necessary documents through the portal.",
+    "You can begin your admission process by registering on the university portal and following the application steps."
+  ]
+ },
+  {
+    "intent": "scholarship_info",
+  "patterns": [
+    "Are scholarships available?",
+    "What scholarships do you offer?",
+    "Tell me about scholarships",
+    "Scholarship information",
+    "Do you provide scholarships for students?",
+    "Available scholarships in the college",
+    "What financial aid options are available?",
+    "Are there any merit-based scholarships?",
+    "Are scholarships available for engineering students?",
+    "How can I apply for a scholarship?",
+    "Scholarship details",
+    "What support is available for students financially?",
+    "Do you offer any fee waivers or scholarships?",
+    "Can I get a scholarship?",
+    "What are the scholarship options?"
+  ],
+  "responses": [
+    "Our university offers various scholarships, including merit-based and government-funded schemes for eligible students.",
+    "Scholarships are available based on academic performance and eligibility criteria. Please check the student portal for details.",
+    "We provide multiple scholarship opportunities. You can apply through the official university portal.",
+    "Financial assistance and scholarships are available for eligible students. Kindly refer to the university website for more information.",
+    "The college offers several scholarships and fee support options. Please check eligibility and apply through the portal."
+  ]
+ },
+  {
+    "intent": "facilities",
+  "patterns": [
+    "What facilities does the college provide?",
+    "College facilities",
+    "What are the available facilities?",
+    "Tell me about campus facilities",
+    "What services are available in the college?",
+    "What infrastructure and facilities are provided?",
+    "Facilities offered by the college",
+    "What amenities are available on campus?",
+    "Do you have good facilities?",
+    "What does the college offer to students?",
+    "Campus facilities information",
+    "What resources are available for students?"
+  ],
+  "responses": [
+    "The college provides modern facilities including air-conditioned labs, high-speed internet, smart classrooms, an auditorium, library, and canteen.",
+    "Our campus offers a range of facilities such as well-equipped labs, digital classrooms, a library, and recreational spaces.",
+    "Students have access to advanced laboratories, smart classrooms, internet facilities, and campus amenities like library and canteen.",
+    "The university provides excellent infrastructure including labs, classrooms, library, auditorium, and food facilities.",
+    "We offer comprehensive facilities including IT labs, smart classrooms, library resources, and student support services."
+  ]
+ },
+  {
+    "intent": "college_intake",
+  "patterns": [
+    "What is the college intake?",
+    "Maximum number of students per branch",
+    "How many students are admitted in each branch?",
+    "Number of seats per course",
+    "Seat availability in each department",
+    "How many seats are there in each branch?",
+    "Total intake of the college",
+    "What is the seat capacity?",
+    "How many students can enroll per course?",
+    "Branch-wise seat intake",
+    "What is the maximum intake per department?",
+    "How many students are accepted each year?",
+    "Seat distribution in the college"
+  ],
+  "responses": [
+    "The intake capacity varies by department. Typically, branches like IT, Computer Engineering, and EXTC have around 60 seats each.",
+    "Each department has a fixed number of seats, usually around 60 students per branch, though this may vary.",
+    "The number of seats depends on the course. Commonly, major branches have an intake of approximately 60 students.",
+    "Seat capacity differs by department. Please contact the college administration for exact and updated intake details.",
+    "Most engineering branches have an intake of around 60 students, but this may vary depending on the program."
+  ]
+ },
+  {
+    "intent": "dress_code",
+  "patterns": [
+    "What is the college dress code?",
+    "Is there a uniform in the college?",
+    "Do we have to wear a uniform?",
+    "Can we wear casual clothes?",
+    "What should I wear to college?",
+    "Is uniform compulsory?",
+    "Are students required to follow a dress code?",
+    "College uniform details",
+    "Do students need to wear formal dress?",
+    "What is the dress policy?",
+    "Can I wear casuals to college?",
+    "Is there any dress regulation?"
+  ],
+  "responses": [
+    "The college follows a dress code policy. Students are expected to dress formally or as per the guidelines provided by the institution.",
+    "Yes, students are required to follow the college dress code. Please refer to the official guidelines for details.",
+    "A dress code is maintained in the college to ensure a professional environment. Specific details are shared by the administration.",
+    "Students are expected to follow the prescribed dress code. Kindly check with the college for exact uniform guidelines.",
+    "The college may have specific dress code requirements. Please refer to the official circular or contact the administration for details."
+  ]
+ },
+  {
+   "intent": "committee_info",
+  "patterns": [
+    "What committees are there in the college?",
+    "List of committees in the college",
+    "Tell me about college committees",
+    "Are there any committees in the college?",
+    "What student committees exist?",
+    "Different committees in the college",
+    "Committee details",
+    "How many committees are there?",
+    "What are the various committees?",
+    "Student committee information",
+    "Clubs and committees in the college",
+    "What groups are available for students?"
+  ],
+  "responses": [
+    "The college has various committees such as cultural, technical, sports, and academic committees for student participation.",
+    "There are multiple student committees including cultural clubs, technical teams, and event management groups.",
+    "The college encourages student involvement through different committees like cultural, sports, and technical groups.",
+    "Various committees are available for students to participate in extracurricular and academic activities.",
+    "For detailed information about specific committees, please contact the college administration at +44 20 7946 0958."
+  ]
+ },
+  {
+    "intent": "out_of_scope",
+  "patterns": [
+    "I love you",
+    "Do you love me?",
+    "Will you marry me?",
+    "Are you single?",
+    "Can we be friends?",
+    "You are cute",
+    "Do you have feelings?",
+    "Are you human?",
+    "Can we go on a date?",
+    "I like you",
+    "You are amazing",
+    "Do you have a boyfriend or girlfriend?",
+    "Let's hang out",
+    "Do you miss me?"
+  ],
+  "responses": [
+    "I'm here to help with college-related queries. How can I assist you?",
+    "That's kind of you! 😊 But I can help you with information about the college.",
+    "I appreciate that! However, I’m designed to answer academic and college-related questions.",
+    "I'm just a chatbot for college assistance. Let me know how I can help you!",
+    "Let’s keep it focused on college-related topics. What would you like to know?"
+  ]
+ },
+  {
+    "intent": "abusive_language",
+  "patterns": [
+    "shut up",
+    "you are stupid",
+    "idiot",
+    "you are dumb",
+    "this is useless",
+    "you're annoying",
+    "what nonsense",
+    "this is stupid",
+    "you are not helpful",
+    "worst chatbot",
+    "this is dumb",
+    "you are useless"
+  ],
+  "responses": [
+    "I'm here to help. Please let me know how I can assist you with your query.",
+    "Let's keep the conversation respectful. How can I help you?",
+    "I understand you're frustrated. Please tell me how I can assist you better.",
+    "I'm here to support you. Feel free to ask any college-related questions.",
+    "Let’s keep things respectful. I’d be happy to help with your queries."
+  ]
+ },
+  {
+    "intent": "holidays",
+  "patterns": [
+    "When are the holidays?",
+    "Holiday schedule",
+    "List of holidays",
+    "When is the next vacation?",
+    "College holidays",
+    "Vacation details",
+    "When do holidays start?",
+    "How long is the vacation?",
+    "Upcoming holidays",
+    "Holiday calendar",
+    "When is the semester break?",
+    "Break schedule",
+    "Academic holidays information"
+  ],
+  "responses": [
+    "The list of holidays and vacation periods is available in the academic calendar on the university portal.",
+    "Holiday schedules are shared with students through the academic calendar at the beginning of the semester.",
+    "You can check the academic calendar on the university portal for detailed holiday and vacation information.",
+    "The university provides a complete holiday schedule in the academic calendar. Please refer to it for details.",
+    "For information about holidays and semester breaks, please visit the official academic calendar on the portal."
+  ]
+ },
+  {
+    "intent": "sports_facilities",
+  "patterns": [
+    "What sports facilities are available?",
+    "Tell me about sports in the college",
+    "Do you have sports facilities?",
+    "Sports infrastructure in the college",
+    "What games can students play?",
+    "Are there sports activities?",
+    "College sports facilities",
+    "What sports are offered?",
+    "Do you have playgrounds?",
+    "Sports and games information",
+    "Are extracurricular sports available?",
+    "Facilities for sports",
+    "Do students participate in sports?",
+    "What kind of sports activities are available?"
+  ],
+  "responses": [
+    "The college provides various sports facilities including playgrounds and equipment for indoor and outdoor games.",
+    "Students can participate in a variety of sports activities, including both indoor and outdoor games.",
+    "The campus includes sports infrastructure such as playgrounds and courts for different games.",
+    "We encourage students to take part in sports and provide facilities for games like cricket, football, basketball, and indoor activities.",
+    "The college supports all-round development by offering sports facilities and organizing various sports events."
+  ]
+ },
+  {
+      "intent": "acknowledgement",
+  "patterns": [
+    "okay",
+    "ok",
+    "alright",
+    "got it",
+    "understood",
+    "thanks",
+    "thank you",
+    "thanks for your help",
+    "appreciate it",
+    "nice work",
+    "good job",
+    "well done",
+    "that helps",
+    "sounds good",
+    "great, thanks"
+  ],
+  "responses": [
+    "You're welcome! Let me know if you need anything else.",
+    "Glad I could help! Feel free to ask if you have more questions.",
+    "Happy to assist! What else can I help you with?",
+    "You're welcome! I'm here if you need further assistance.",
+    "No problem at all! Let me know if you have any other queries."
+  ]
+ },
+  {
+    "intent": "bot_capabilities",
+  "patterns": [
+    "What can you do?",
+    "How can you help me?",
+    "What services do you provide?",
+    "What are your capabilities?",
+    "How can you assist me?",
+    "What kind of questions can I ask?",
+    "What help can you provide?",
+    "What can you help me with?",
+    "Why should I use you?",
+    "What are you designed for?",
+    "Tell me what you can do",
+    "How are you useful?",
+    "What tasks can you perform?"
+  ],
+  "responses": [
+    "I can help you with information about the college, including courses, admissions, facilities, placements, and more.",
+    "You can ask me about college-related topics such as fees, courses, schedules, and campus facilities.",
+    "I’m here to assist you with queries related to academics, administration, and student services.",
+    "I can provide information about admissions, departments, events, and other college-related details.",
+    "Feel free to ask me anything related to the college, and I’ll do my best to assist you."
+  ]
+ },
+  {
+    "intent": "anti_ragging",
+  "patterns": [
+    "Is ragging allowed in the college?",
+    "Does the college have anti-ragging policies?",
+    "Is there any ragging in the college?",
+    "How does the college prevent ragging?",
+    "Is the campus ragging-free?",
+    "What are the anti-ragging measures?",
+    "Are there any ragging incidents?",
+    "Does the college ensure student safety?",
+    "Is ragging prohibited?",
+    "Tell me about anti-ragging rules",
+    "How safe is the college for new students?",
+    "Do you have an anti-ragging committee?"
+  ],
+  "responses": [
+    "The college maintains a strict anti-ragging policy and ensures a safe and respectful environment for all students.",
+    "Ragging is strictly prohibited on campus, and strong disciplinary actions are taken against any violations.",
+    "The institution follows strict anti-ragging guidelines to ensure student safety and well-being.",
+    "The college is committed to providing a ragging-free environment with proper monitoring and support systems.",
+    "There is an anti-ragging committee in place to handle and prevent any such incidents on campus."
+  ]
+ },
+   {
+    "intent": "mess_timing",
+  "patterns": [
+    "What are the mess timings?",
+    "Mess schedule",
+    "When is breakfast in the mess?",
+    "Lunch timing in hostel mess",
+    "Dinner time in mess",
+    "Mess timetable",
+    "Food timing in hostel",
+    "When does the mess open?",
+    "Mess opening hours"
+  ],
+  "responses": [
+    "The mess operates at scheduled times for breakfast, lunch, and dinner. Please check the hostel notice board or portal for exact timings.",
+    "Mess timings are fixed for each meal. Kindly refer to the hostel schedule for detailed timings.",
+    "You can find the mess timetable on the hostel notice board or student portal."
+  ]
+   },
+   {
+      "intent": "bus_timetable",
+  "patterns": [
+    "What is the bus timetable?",
+    "College bus schedule",
+    "Bus timings",
+    "When does the college bus run?",
+    "Transport schedule",
+    "Bus routes and timings",
+    "College transport timing",
+    "When is the next bus?"
+  ],
+  "responses": [
+    "The bus timetable is available on the college transport portal. Please check there for the latest schedule.",
+    "College bus schedules are shared with students via the transport section on the portal.",
+    "You can find bus routes and timings on the official college website or transport office."
+  ]
+   }
+ ]
+ }
