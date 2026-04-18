@@ -54,6 +54,7 @@ This chatbot follows a **closed-domain architecture**, focused only on:
 
 - **Response Selection**
   - Predefined responses (retrieval-based)
+- Confidence threshold to avoid incorrect intent matching
 
 ---
 
@@ -85,7 +86,7 @@ python -m spacy download en_core_web_md
 
 **Dataset**
 
-The dataset used is a custom intents.json file containing:
+The dataset used is a custom `intents.json` file (included in this repository) containing:
 
   - Intents
   - Patterns
@@ -112,6 +113,7 @@ I started by building a basic chatbot using pattern matching and gradually impro
 - Importance of preprocessing in NLP
 - Difference between keyword matching and semantic similarity
 - How embeddings improve chatbot understanding
+- - Learned how combining multiple NLP techniques improves chatbot performance
 
 *Ethical Considerations*
 - Avoiding misleading or incorrect responses
@@ -147,8 +149,6 @@ python chatbot.py
 ```
 
 6. Start interacting with the chatbot in the terminal.
-
----
 
 ---
 
